@@ -9,3 +9,18 @@ Neste projeto, será disponibilizado no GitHub um projeto de referência que uti
 
 ### repositório de referência
 https://github.com/falvojr/lab-banco-digital-oo
+
+### Sobre o que eu fiz...
+
+inicialmente gostaria de usar o SQLite para ter os dados persistentes, por isso a utilização do maven. No entanto, desisti da ideia.
+...
+posteriormente, organizei algumas ideias basicas do que um banco seria composto.
+então identifiquei as classes:
+Bancos -> que conteria a listagem das agencias e contas
+Agencias -> é somente uma classe que abstrai a ideia de uma agencia
+conta -> Conteria os dados da conta
+Usuario -> somos nós, inclui nossos dados e operações que o usuario faria no aplicativo, como depositar dinheiro.
+
+
+
+
