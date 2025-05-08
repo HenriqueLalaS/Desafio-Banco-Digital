@@ -16,9 +16,13 @@ inicialmente gostaria de usar o SQLite para ter os dados persistentes, por isso 
 ...
 posteriormente, organizei algumas ideias basicas do que um banco seria composto.
 então identifiquei as classes:
+
 Bancos -> que conteria a listagem das agencias e contas
+
 Agencias -> é somente uma classe que abstrai a ideia de uma agencia
+
 conta -> Conteria os dados da conta
+
 Usuario -> somos nós, inclui nossos dados e operações que o usuario faria no aplicativo, como depositar dinheiro.
 
 
